@@ -3,16 +3,17 @@ WORKDIR /work/llvm-project
 
 RUN apt-get update
 RUN apt-get install -y \
-	cmake \
-	ninja-build \
-	clang-19 \
-	lld-19 \
-	sudo \
-	adduser \
-	tmux \
-	bzip2 \
-	curl \
-	vim
+        cmake \
+        ninja-build \
+        clang-19 \
+        lld-19 \
+        sudo \
+        git \
+        adduser \
+        tmux \
+        bzip2 \
+        curl \
+        vim
 
 
 ARG USERID
